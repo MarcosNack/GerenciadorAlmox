@@ -1,0 +1,8 @@
+/.vs
+/__pycache__
+/.vscode
+/build
+/dist
+/test
+/GerenciadorAlmox_V_1_0_0.7z
+/GerenciadorAlmox.spec

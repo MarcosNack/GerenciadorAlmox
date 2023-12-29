@@ -25,7 +25,7 @@ class MainWindow(QMainWindow, Ui_MainGerenciadorAlmox):
         self.setupUi(self)
         self.setWindowTitle('Gerenciador Almoxarifado')
 
-        appIcon = QIcon(u"//berneckadm/auc_almox/Arquivos/ALMOXARIFADO - DOCUMENTOS COMPARTILHADOS/GerenciadorAlmox/icone.ico")
+        appIcon = QIcon(u"caminho_icone")
         self.setWindowIcon(appIcon)
         
         self.porta = ""

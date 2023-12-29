@@ -49,9 +49,9 @@ def conexao_sap_gui():
         connection = application.OpenConnection("4. S4HANA Produção", True)
         session = connection.Children(0)
         try:
-            session.findById("wnd[0]/usr/txtRSYST-MANDT").Text = "100"
-            session.findById("wnd[0]/usr/txtRSYST-BNAME").Text = "ALT_POSICAO"
-            session.findById("wnd[0]/usr/pwdRSYST-BCODE").Text = "gestaocad@2021"
+            session.findById("wnd[0]/usr/txtRSYST-MANDT").Text = "mandante"
+            session.findById("wnd[0]/usr/txtRSYST-BNAME").Text = "usuario_SAP"
+            session.findById("wnd[0]/usr/pwdRSYST-BCODE").Text = "senha"
             session.findById("wnd[0]").sendVKey(0)
             try:
                 erro = session.findById("wnd[1]/usr/txtMULTI_LOGON_TEXT").text
